@@ -158,11 +158,11 @@ If you like these labs and want more learning content:
 
 🔗 **LinkedIn**
 DevOps, Cloud, Terraform, Kubernetes & Databricks updates
-👉 [https://www.linkedin.com/in/sandeep-kaushik-2a345856/](https://www.linkedin.com/in/sandeep-kaushik-2a345856/)
+👉 https://www.linkedin.com/in/sandeep-kaushik-2a345856/
 
 📝 **Medium (Technical Blogs)**
 Read blogs on ADF, Databricks, Terraform, DevOps & Cloud Architecture
-👉 [https://medium.com/@shyamsandeep28](https://medium.com/@shyamsandeep28)
+👉 https://medium.com/@shyamsandeep28
 
 ---
 
