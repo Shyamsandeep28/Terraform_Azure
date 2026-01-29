@@ -1,154 +1,183 @@
 # Terraform on Azure – Hands-On Lab Exercises 🚀
 
-Welcome to the **Terraform_Azure** repository!  
-This repository is designed to help you **learn Terraform by doing**, with practical **hands-on lab exercises focused on Microsoft Azure**.
+Welcome to the **Terraform_Azure** repository!
+This repository is created to help learners understand **Terraform with Microsoft Azure** using **step-by-step hands-on lab exercises**.
 
-Whether you are a **beginner starting with Infrastructure as Code (IaC)** or an **engineer preparing for real-world cloud projects**, this repo will guide you step by step.
-
----
-
-## 📌 What You Will Learn From This Repository
-
-By working through these labs, you will learn:
-
-- What Terraform is and **why it is used**
-- How Terraform works with **Azure (azurerm provider)**
-- Writing Terraform code using:
-  - Providers
-  - Resources
-  - Variables
-  - Outputs
-- Managing infrastructure lifecycle:
-  - `terraform init`
-  - `terraform plan`
-  - `terraform apply`
-  - `terraform destroy`
-- Creating and managing Azure resources using Terraform
-- Best practices for structuring Terraform projects
+If you want to learn **Infrastructure as Code (IaC)** in a practical, real-world way, this repository is for you.
 
 ---
 
-## 🧱 Repository Structure (High Level)
+## 📌 What This Repository Covers
 
-Each lab in this repository is focused on **one concept at a time**, keeping learning simple and practical.
+By completing these labs, you will learn:
+
+* What Terraform is and **why organizations use it**
+* How Terraform works with **Microsoft Azure**
+* Understanding Terraform core components:
+
+  * Provider
+  * Resource
+  * Variable
+  * Output
+* Writing clean and reusable Terraform code
+* Executing Terraform commands:
+
+  * `terraform init`
+  * `terraform plan`
+  * `terraform apply`
+  * `terraform destroy`
+* Creating and managing Azure resources using Terraform
+* Terraform project structure and best practices
+
+---
+
+## 🧱 Repository Structure
+
+This repository is divided into **multiple hands-on labs**, each focusing on a single concept.
 
 Typical labs include:
-- Terraform installation & setup
-- Azure provider configuration
-- Resource Group creation
-- Virtual Machine creation
-- Networking components
-- Variables & outputs
-- State management basics
 
-👉 Each folder contains Terraform files (`.tf`) that you can run directly.
+* Terraform installation & setup
+* Azure provider configuration
+* Resource Group creation
+* Virtual Machine creation
+* Networking basics (VNet, Subnet)
+* Variables and outputs
+* Terraform state basics
+
+Each lab contains Terraform `.tf` files that can be executed directly.
 
 ---
 
 ## ⚙️ Prerequisites
 
-Before starting the labs, make sure you have:
+Before starting, make sure you have:
 
-- An **Azure account**
-- **Azure CLI** installed and logged in  
+* An active **Azure account**
+* **Azure CLI** installed
+
   ```bash
   az login
-▶️ How to Use This Repository
+  ```
+* **Terraform** installed
 
-Follow these steps for every lab:
+  ```bash
+  terraform -version
+  ```
+* Basic understanding of cloud and Azure services (beginner level is enough)
 
-Clone the repository
+---
 
+## ▶️ How to Use This Repository
+
+Follow these steps for each lab:
+
+1️⃣ Clone the repository
+
+```bash
 git clone https://github.com/Shyamsandeep28/Terraform_Azure.git
+```
+
+2️⃣ Move into the repository
+
+```bash
 cd Terraform_Azure
+```
 
+3️⃣ Navigate to a lab folder
 
-Navigate to a lab directory
-
+```bash
 cd <lab-folder-name>
+```
 
+4️⃣ Initialize Terraform
 
-Initialize Terraform
-
+```bash
 terraform init
+```
 
+5️⃣ Review execution plan
 
-Review the execution plan
-
+```bash
 terraform plan
+```
 
+6️⃣ Apply the configuration
 
-Apply the configuration
-
+```bash
 terraform apply
+```
 
+7️⃣ Destroy resources after practice (IMPORTANT)
 
-Destroy resources when done (important!)
-
+```bash
 terraform destroy
+```
 
-🧠 Learning Approach
+---
 
-This repository follows a trainer-style approach:
+## 🧠 Learning Style
 
-Simple explanations
+This repository follows a **trainer-style learning approach**:
 
-One concept per lab
+* Simple language
+* One concept at a time
+* Real-world Azure examples
+* Focus on **why we do something**, not just **how**
 
-Real-world Azure examples
+Suitable for:
 
-Focus on why we do something, not just how
+* Students & freshers
+* Working professionals
+* DevOps & Cloud engineers
+* Corporate & classroom training
 
-Perfect for:
+---
 
-Students
+## ⚠️ Important Notes
 
-Freshers
+* Always destroy Azure resources after lab completion to avoid billing.
+* Never hardcode credentials inside Terraform files.
+* Read `terraform plan` carefully before applying.
 
-Working professionals
+---
 
-DevOps / Cloud learners
+## 🧑‍🏫 About the Author — Sandeep Kumar Sharma
 
-Corporate training sessions
+**DevOps Architect & Trainer**
 
-⚠️ Important Notes
+* Delivered **50+ corporate training sessions globally**
+* Expert in **Ansible, Terraform, Kubernetes, Docker, AWS, Azure**
+* Passionate about enabling engineers through **hands-on learning**
 
-Always destroy resources after completing labs to avoid Azure charges.
+---
 
-Review Terraform plans carefully before applying.
+## 🌐 Connect With Me
 
-Do not hardcode secrets in Terraform files.
+If you like these labs and want more learning content:
 
-🧑‍🏫 About the Author — Sandeep Kumar Sharma
+🔗 **LinkedIn**
+DevOps, Cloud, Terraform, Kubernetes & Databricks updates
+👉 [https://www.linkedin.com/in/sandeep-kaushik-2a345856/](https://www.linkedin.com/in/sandeep-kaushik-2a345856/)
 
-DevOps Architect & Trainer
+📝 **Medium (Technical Blogs)**
+Read blogs on ADF, Databricks, Terraform, DevOps & Cloud Architecture
+👉 [https://medium.com/@shyamsandeep28](https://medium.com/@shyamsandeep28)
 
-Delivered 50+ corporate sessions globally
+---
 
-Expert in Ansible, Terraform, Kubernetes, Docker, AWS, Azure
-
-Passionate about enabling engineers through hands-on learning
-
-🌐 Connect With Me
-
-If you enjoy these labs and want to follow more content:
-
-🔗 LinkedIn – DevOps, Cloud, Terraform, Kubernetes & Databricks updates
-👉 https://www.linkedin.com/in/sandeep-kaushik-2a345856/
-
-📝 Medium – Technical blogs on ADF, Databricks, Terraform, DevOps & Cloud Architecture
-👉 https://medium.com/@shyamsandeep28
-
-⭐ Support the Project
+## ⭐ Support the Project
 
 If this repository helps you:
 
-⭐ Star the repository
-🔄 Share with your friends
-🤝 Contribute labs or improvements
+⭐ Star this repository
+🔄 Share with your network
+🤝 Contribute improvements or new labs
 
 Every star motivates the next lab! 🌟
 
-🙌 Thank You for Learning From This Project
+---
 
-Happy Terraforming! 🚀
+## 🙌 Thank You for Learning From This Project
+
+Happy Learning & Happy Terrafor
